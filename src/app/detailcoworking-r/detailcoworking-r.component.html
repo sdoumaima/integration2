@@ -1,0 +1,900 @@
+<section class="section-hero  inner-page fixed;" style="background:#1053BB;" id="home-section">
+</section>
+<div class="site-wrap">
+
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>  <!-- .site-mobile-menu -->
+
+
+<!-- NAVBAR --> 
+
+
+<header class="site-navbar mt-4">
+    
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="site-logo col-6 "><a href="index.html" ><img src="assets/images/sarra.png" style="width: 100;"alt="" title=""></a></div>
+
+      <nav class="mx-auto site-navigation d-flex aligin-items-center col-7">
+        <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+          <li><a href="/actualiteR">Actualité</a></li>
+          <li><a href="offreR">offre</a></li>
+          <li><a href="eventR">Event</a></li>
+          <li><a href="coworkingR">Coworking</a></li>
+          <li style="color: #f2f2f2;">20Px</li>
+
+          <li class="nav-item dropdown">
+            <a class=" nav-icon"  (click)="showNotifications = !showNotifications">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" [ngClass]="{'show': showNotifications}">
+              <li class="dropdown-header ">
+                Vous avez 4 nouvelles notifications
+                <a href="notificationR"><span class="badge rounded-pill bg-primary p-2 ms-2">Voir tout</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4">
+                <div>
+                  <h5 style="color: #1053BB ;font-size: 19px;">Cowork</h5>
+                  <p>Cowork a apprové votre demande</p>
+                  <p class="small-text">il y a 30 minutes</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr role="tabpanel"class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4 ">
+                <div>
+                  <h5 style="color: #1053BB  ;font-size: 19px;">CareerBridge</h5>
+                  <p>Vous atteint 75 Xp vous pouvez profiter une réduction sur la pack premium</p>
+                  <p class="small-text">1 hr. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="dropdown-footer p-4">
+                <a href="notificationR">Afficher toutes les notifications</a>
+              </li>
+            </ul>
+          </li>          <li class="nav-item dropdown" style="color: aliceblue;">
+            <div class="nav-link" id="dropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-grid-3x3-gap-fill large-icon"></i>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropDown">
+              <a class="dropdown-item" href="#">Pack premium</a>
+              <a class="dropdown-item "style="color: #2474A6;" href="#" >1Xp</a>
+             
+            </div>
+          </li>
+          <div class=" d-lg-none nav-item dropdown">
+            <div class="nav-link " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src=" assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu " aria-labelledby="profileDropdown">
+              <a class="dropdown-item " href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item " href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+          </div>   
+          
+        </ul>
+      </nav>
+      
+      <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+        <div class="ml-auto">
+        
+            <div class=" .d-md-none .d-lg-block
+            " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src=" assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item" href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+        </div>
+        <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<body id="top">
+    <body>
+ 
+        
+   
+<!-- Hero Area End -->
+        <!-- Job List Area Start -->
+        <div class="job-listing-area pt-120 pb-120 ">
+            <div class="container1 ml-5">
+                <div class="row">
+                    <!-- Left content -->
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="row">
+                            <h5>Localisation</h5>
+                               
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d102096.91210803339!2d10.056739856726072!3d36.90162629480617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d36.8771072!2d10.194124799999999!4m3!3m2!1d36.922449799999995!2d10.1067352!5e0!3m2!1sfr!2stn!4v1680784101468!5m2!1sfr!2stn" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+   
+                                <!-- select-Categories start -->
+                                <div class="select-Categories pt-40 pb-50">
+                                  <h5>Avantages</h5> 
+                                  <section id="features" class="features mt-3">
+    
+                                    <div class="container">
+                                      
+                                      <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+                              
+                                        <div class="col-md-8">
+                            
+                                          <img src="/assets/images/walking1.png"  class="img-fluid" alt="">
+                            <p>5 minutes à pied de transports publics.
+
+                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                         
+                                         
+                                            <img src="/assets/images/wifi1.png"  class="img-fluid" alt="">
+                                            <p>Wi-Fi haut débit
+                                            </p>
+                            
+                                        </div>
+                                      </div><!-- Features Item -->
+                              </div></section>
+                              <section id="features" class="features">
+    
+                                <div class="container">
+                                  
+                                  <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+                          
+                                    <div class="col-md-8">
+                        
+                                      <img src="/assets/images/air-conditioner1.png"  class="img-fluid" alt="">
+                        <p>Climatisation
+                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                     
+                                     
+                                        <img src="/assets/images/coffee-cup1.png"  class="img-fluid" alt="">
+                                        <p>Café sur place
+
+                                        </p>
+                        
+                                    </div>
+                                    
+                                  </div><!-- Features Item -->
+                                  
+                          </div>
+                         <!-- select-Categories start -->
+                         <div class="select-Categories pt-40 pb-50">
+                          <h5>Témoignages</h5>
+                          <div class="owl-carousel single-carousel mt-2 mb-5">
+  
+          
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6 align-self-center text-center text-center">
+                                  <div class="col-lg-6 align-self-end text-center text-lg-center">
+                                    <img src="assets/images/person_5.jpg" class="img-fluid rounded-circle " style="width:100px " alt=""></div>
+                                  </div>
+                                  <blockquote>
+                                    <p><cite> &mdash; Khaled Mansouri  <p class="mb-0 me-2 text-secondary"></p>
+                                    <ul class="mb-0 list-unstyled d-flex flex-row" style="color: #e8b200;">
+                                      <li>
+                                        <i class="bi bi-star-fill"></i>
+                    
+                                      </li>
+                                      <li>
+                                        <i class="bi bi-star-fill"></i>
+                    
+                                      </li>
+                                      <li>
+                                        <i class="bi bi-star-fill"></i>
+                    
+                                      </li>
+                                     
+                                    </ul></cite>
+                                    <p>&ldquo;c'est la meilleure décision que j'ai prise pour mon entreprise.&rdquo;</p>
+                                   
+                                  </blockquote>
+                                </div>
+                                
+                              </div>
+                         
+                  
+                        
+                  
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6 align-self-center text-center text-center">
+                                  <div class="col-lg-6 align-self-end text-center text-lg-center">
+                                    <img src="assets/images/person_5.jpg" class="img-fluid rounded-circle " style="width:100px " alt=""></div>
+                                  </div>
+                                  <blockquote>
+                                    <p><cite> &mdash; Khaled Mansouri</cite></p>
+                                    <div class="d-flex flex-row align-items-center mb-2 ml-5">
+                <p class="mb-0 me-2 text-secondary"></p>
+                <ul class="mb-0 list-unstyled d-flex flex-row" style="color: #e8b200;">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                 
+                </ul>
+              </div>
+                                    <p>&ldquo;c'est la meilleure décision que j'ai prise pour mon entreprise.&rdquo;</p>
+                                    <p class="mb-0 me-2 small-text text-secondary ">il y a 2 jours</p>
+                                  </blockquote>
+                                </div>
+                                
+                              </div>
+                            </div>
+                  
+                        
+                  
+                      
+                         </div></section>
+                          
+</div>
+
+
+
+
+
+
+
+
+                                <style>
+                                   
+                                    
+                                    a:visited {
+                                      color: #1053BB;
+                                      background-color: transparent;
+                                      text-decoration: none;
+                                    }
+                                    
+                                    
+                                    </style>
+                                  </div>
+                       
+                        <!-- Job Category Listing End -->
+                  
+
+                        </div>
+                    
+
+
+
+
+
+
+                    <!-- Right content -->
+                    <div class="col-xl-6 col-lg-6 col-md-8">
+                        <!-- Featured_job_start -->
+                        <section class="featured-job-area">
+                            <div class="container ">
+                                <!-- Count of Job list Start -->
+                                <div class="row">
+                                    
+                                    <div class="col-lg-12">
+
+
+        
+       
+    
+<style>
+
+        /* styling search bar */
+        .search input[type=text]{
+            width:600px;
+            height:25px;
+            border:20px;
+            border-color: #1053BB;
+        }
+             
+        .search{
+            float:center;
+            margin:5px;
+        }
+             
+        .search button{
+            background-color: #1053BB;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+</style>
+
+
+
+
+<!-- Job Category Listing start -->
+<div class="job-category-listing mb-5 ">
+  <!-- single one -->
+  <div class="single-listing">
+     
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+    
+        <div class="container">
+          
+          <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+  
+            <div class="col-md-12">
+              <a href="#"><img src="assets/images/cow2.png" class="img-fluid rounded-circle " style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">CoWork
+              </label><div class="d-flex flex-row align-items-center mb-2">
+                <p class="mb-0 me-2 text-secondary">Lac 1</p>
+                <ul class="mb-0 list-unstyled d-flex flex-row" style="color: #e8b200;">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+
+                  </li>
+                 
+                </ul>
+              </div>
+              <p  style="font-size: small;">Situé dans le nouveau pôle d'affaires de Tunis, notre centre Tunis Carthage bénéficie d'un emplacement idéal entre le centre-ville et l'aéroport de Tunis, à seulement 20 minutes des sites mythiques de Carthage et Sidi Bou Said. Le bâtiment offre également une vue époustouflante sur le lac de Tunis et permet d'accéder facilement à plusieurs restaurants gastronomiques.
+
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/images/cow4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/images/cow5.png" class="d-block w-100" alt="...">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+           
+          </div><!-- Features Item -->
+  </div></section>
+     
+         
+
+      
+        
+          </div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                    </div>
+                                </div>
+                             
+                                <!-- Job Category Listing start -->
+ <div class="job-category-listing mb-5 ">
+  <!-- single one -->
+  <div class="single-listing">
+     <div class="small-section-tittle2 "style="text-align: center;">
+          <h5>Les Salles</h5><br>
+     </div>
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+    
+        <div class="container">
+          
+          <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+  
+            <div class="col-md-6">
+              <p  style="font-size: small;">Assistez à la première conférence nationale sur l'investissement dans les startups en Tunisie.</p>
+
+              <img src="/assets/images/cow3.jpg"  class="img-fluid" alt="">
+              <p  style="font-size: small;">Un marathon de 24 heures où les équipes s'affrontent, pour développer les PROJETS .</p>
+
+            </div>
+            <div class="col-md-6">
+              <p  style="font-size: small;">Assistez à la première conférence nationale sur l'investissement dans les startups en Tunisie.</p>
+             
+             
+                <img src="/assets/images/cow3.jpg"  class="img-fluid" alt="">
+
+                <p  style="font-size: small;">Un marathon de 24 heures où les équipes s'affrontent, pour développer les PROJETS .</p>
+
+            </div>
+          </div><!-- Features Item -->
+  </div></section>
+     
+         
+
+      
+         
+          </div></div>
+
+
+
+
+
+
+
+
+
+
+                                
+                             
+                   
+
+
+
+
+                                <!-- Job Category Listing start -->
+                                <div class="job-category-listing mb-5 ">
+                                  <!-- single one -->
+                                  <div class="single-listing">
+                                     <div class="small-section-tittle2 "style="text-align: center;">
+                                          <h5>Tarifs</h5><br>
+                                     </div>
+                                      <!-- ======= Features Section ======= -->
+                                      <section id="features" class="features">
+                                    
+                                        <div class="container">
+                                          
+                                          <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+                                  
+                                            <div class="col-md-4">
+                                              <div class="card  text-center" >
+                                               
+                                                <div class="card-body">
+                                                  <h5 class="card-title">25 DT</h5>
+                                                 
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                  Heure
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card  text-center" >
+                                               
+                                                <div class="card-body">
+                                                  <h5 class="card-title">150 DT</h5>
+                                                  
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                  Semaine
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card  text-center" >
+                                               
+                                                <div class="card-body">
+                                                  <h5 class="card-title">450 DT</h5>
+                                                  
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                  Mois
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div><!-- Features Item -->
+                                  </div></section>
+                                     
+                                         
+                                
+                                      
+                                         
+                                          </div></div>
+                                
+                                
+                                         
+                                
+                                
+                                
+                                       <div class="d-flex justify-content-center">
+                                       <!-- Bouton pour ouvrir la première popup -->
+<button type="button" class="btn btn-custom text-white ml-3" style="color:#2474A6;" data-toggle="modal" data-target="#modal1">
+  Réserver
+</button>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1Label">Réservation de l’espace</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="container">
+    
+            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+    
+              <div class="col-md-6">
+           <div class="mb-3">
+             <label for="Intitulé-name" class="col-form-label">Intitulé:</label>
+             <input type="text" class="form-control" id="Intitulé-name">
+           </div>
+           <div class="mb-3">
+            <label for="Combien-name" class="col-form-label">Combien de personnes est le bureau pour?:</label>
+            <input type="text" class="form-control" id="Combien-name">
+          </div>
+          <div class="mb-3">
+            <label for="email-name" class="col-form-label">Adresse E-mail:</label>
+            <input type="email" class="form-control" id="email-name">
+          </div></div>
+
+
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="date-name" class="col-form-label">Date de visionnage :</label>
+              <input type="date"id="date" name="date-coworking" class="form-control  form-control">
+            </div>
+            <div class="mb-3">
+             <label for="temps-name" class="col-form-label">Combien de temps en avez-vous besoin ?:</label>
+             <input type="text" class="form-control" id="temps-name">
+           </div>
+           <div class="mb-3">
+             <label for="num-name" class="col-form-label">Téléphone Mobile
+              :</label>
+             <input type="text" class="form-control" id="num-name">
+           </div></div></div></div>
+         </form>
+        
+      
+        
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <!-- Bouton pour ouvrir la deuxième popup -->
+        <button type="button" class="btn btn-custom text-white ml-3" style="color:#2474A6;" data-toggle="modal" data-target="#modal2">
+          Envoyer
+                </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal2Label">Notification</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Votre demande a été envoyé au propriétaire avec succés vous allez recevoir un mail de confirmation de la part de Cowork en cas les places ne atteinnent pas le maximum      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom text-white ml-3" style="color:#1053BB;" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+                                
+                             
+                            
+                        </section>
+                        <!-- Featured_job_end -->
+
+
+
+
+
+
+
+                        
+                        
+                    </div>
+                    <!-- Left content -->
+                    <div class="col-xl-3 col-lg-3 col-md-4 ">
+                        
+                        <!-- Job Category Listing start -->
+                            <!-- single one -->
+                            <div class="single-listing">
+                              
+                                <!-- Select job items start -->
+                                <div class="select-job-items2">
+                                    <img src="assets/images/orange.jpg">
+                                </div>
+                               
+                                <!--  Select job items End-->
+                                <!-- select-Categories start -->
+                                   
+                
+                                <!-- Hero Area End -->
+        <!-- Job List Area Start -->
+        <div class="job-listing-area pt-60 pb-60 ">
+            <div class="container1 ">
+                <div class="row">
+                    <!-- Left content -->
+                    <div class="col-xl-12 col-lg-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                   
+                            </div>
+                        </div>
+                        <!-- Job Category Listing start -->
+                        <div class="job-category-listing mb-5 ">
+                            <!-- single one -->
+                            <div class="single-listing">
+                               <div class="small-section-tittle2">
+                                    <!-- <h4>Job Category</h4>-->
+                               </div>
+
+
+                                <!-- select-Categories start -->
+                                <div class="select-Categories pt-20 pb-50">
+                                   
+                                    <h5 style="font-style:Mulish;font-size:24px; color:#1053BB">Offre d’emploi en vedette</h5> 
+                                    <br>  <br> 
+                                    
+                                    <a href="#"><img src="assets/images/R.png" class="img-fluid center" style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Product Designer<br>
+                                        <label class="text-secondary">Wevioo</label><br>
+
+                                    </label>
+                                    <div class="d-flex justify-content-center">
+                                      <a button type="button" class="btn btn-custom text-white" href="c" style="color:#1053BB;">Postuler</a>
+                                 </div>
+                                   <br>
+                                    <a href="#"><img src="assets/images/a.png" class="img-fluid  " style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Ingénieur Développement<br>
+                                        <label class="text-secondary">Adactim</label><br>
+                                    </label>
+                                    <div class="d-flex justify-content-center">
+                                      <a button type="button" class="btn btn-custom text-white" href="c" style="color:#1053BB;">Postuler</a>
+                                 </div><br>
+
+
+    
+
+
+
+
+                            
+                                 <!--  Select job items End-->
+                            
+
+
+
+
+
+
+
+
+                               
+
+
+
+                                 
+
+                                
+                             
+
+
+ </div>  
+                            </div>
+                           
+ </div>
+
+
+                           
+                                <!-- select-Categories End -->
+                            </div>
+                         
+                            </div>
+                        </div>
+                        <!-- Job Category Listing End -->
+                  
+
+
+
+
+                         <!-- Job List Area Start -->
+        <div class="job-listing-area pt-60 pb-60 ">
+          <div class="container1 ">
+              <div class="row">
+                  <!-- Left content -->
+                  <div class="col-xl-12 col-lg-12 col-md-4">
+                      <div class="row">
+                          <div class="col-12">
+                                 
+                          </div>
+                      </div>
+                      <!-- Job Category Listing start -->
+                      <div class="job-category-listing mb-5 ">
+                          <!-- single one -->
+                          <div class="single-listing">
+                             <div class="small-section-tittle2">
+                                  <!-- <h4>Job Category</h4>-->
+                             </div>
+
+
+                              <!-- select-Categories start -->
+                              <div class="select-Categories pt-20 pb-50">
+                                 
+                                  <h5 style="font-style:Mulish;font-size:24px; color:#1053BB">A suivre </h5> 
+                                  <br>  <br> 
+                                  
+                                  <a href="#"><img src="assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width:30px " alt="" style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Ahmed Ayari<br>
+                                      <label class="text-secondary">Wevioo</label><br>
+
+                                  </label>
+                                  <div class="d-flex justify-content-center">
+                                    <a button type="button" class="btn btn-custom text-white" href="c" style="color:#1053BB;">suivre</a>
+                               </div>
+                                 <br>
+                                  <a href="#"><img src="assets/images/person_6.jpg" class="img-fluid rounded-circle " style="width:30px " alt="" style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Marwa Ayari<br>
+                                      <label class="text-secondary">Adactim</label><br>
+                                  </label>
+                                  <div class="d-flex justify-content-center">
+                                    <a button type="button" class="btn btn-custom text-white" href="c" style="color:#1053BB;">suivre</a>
+                               </div><br>
+                              
+                               <a href="#"><img src="assets/images/person_6.jpg" class="img-fluid rounded-circle " style="width:30px " alt="" style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Marwa Ayari<br>
+                                   <label class="text-secondary">Adactim</label><br>
+                               </label>
+                               <div class="d-flex justify-content-center">
+                                 <a button type="button" class="btn btn-custom text-white" href="c" style="color:#1053BB;">suivre</a>
+                            </div><br>
+
+  
+
+
+
+
+                          
+                               <!--  Select job items End-->
+                          
+
+
+
+
+
+
+
+
+                             
+
+
+
+                               
+
+                              
+                           
+
+
+</div>  
+                          </div>
+                         
+</div>
+
+
+                         
+                              <!-- select-Categories End -->
+                          </div>
+                       
+                          </div>
+                      </div>
+                      <!-- Job Category Listing End -->
+                
+
+                        </div>
+                    
+
+
+                                <!-- select-Categories End -->
+                           
+                            <!-- single two -->
+                        
+                                <!--  Select job items End-->
+                                <!-- select-Categories start -->
+                              
+                                <!-- select-Categories End -->
+                            <!-- single three -->
+                         
+                                <!-- select-Categories End -->
+                            
+                              <!-- Range Slider End -->
+                            </div>
+                        </div>
+                        <!-- Job Category Listing End -->
+                    </div>
+                </div>
+                    </div> 
+       
+        
+
+        
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

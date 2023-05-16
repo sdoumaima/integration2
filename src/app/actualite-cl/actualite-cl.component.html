@@ -1,0 +1,814 @@
+<section class="section-hero  inner-page fixed;" style="background:#3F9FB7;" id="home-section">
+</section>
+<div class="site-wrap">
+
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>  <!-- .site-mobile-menu -->
+
+
+<!-- NAVBAR --> 
+
+
+<header class="site-navbar mt-4">
+    
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="site-logo col-6 "><a href="index.html" ><img src="assets/images/sarra.png" style="width: 100;"alt="" title=""></a></div>
+
+      <nav class="mx-auto site-navigation d-flex aligin-items-center col-7">
+        <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+          <li><a href="cl">Profile</a></li>
+          <li><a href="actualiteCl">Actualité</a></li>
+
+          <li><a href="sponsors">Sponsors</a></li>
+
+          <li><a href="coworkingCl">Coworking</a></li>
+          <li style="color: #f2f2f2;">20Px</li>
+
+ <li class="nav-item dropdown">
+            <a class=" nav-icon"  (click)="showNotifications = !showNotifications">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" [ngClass]="{'show': showNotifications}">
+              <li class="dropdown-header ">
+                Vous avez 4 nouvelles notifications
+                <a href="notificationP"><span class="badge rounded-pill bg-primary p-2 ms-2">Voir tout</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4">
+                <div>
+                  <h5 style="color: #2474A6 ;font-size: 19px;">Wevioo</h5>
+                  <p>Wevioo a apprové votre demande de sponsoring</p>
+                  <p class="small-text">30 min. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr role="tabpanel"class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4 ">
+                <div>
+                  <h5 style="color: #2474A6  ;font-size: 19px;">CareerBridge</h5>
+                  <p>Vous atteint 10 Xp vous pouvez profiter une réduction sur la pack premium</p>
+                  <p class="small-text">1 hr. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="dropdown-footer p-4">
+                <a href="notificationP">Afficher toutes les notifications</a>
+              </li>
+            </ul>
+          </li>            <li class="nav-item dropdown" style="color: aliceblue;">
+            <div class="nav-link" id="dropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-grid-3x3-gap-fill large-icon"></i>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropDown" style="color: #fff;">
+              <a class="dropdown-item" href="#">Pack premium</a>
+              <a class="dropdown-item "style="color: #2474A6;" href="#" >1Xp</a>
+             
+            </div>
+          </li>
+          <div class=" d-lg-none nav-item dropdown">
+            <div class="nav-link " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src=" assets/images/boublilogo.png" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu " aria-labelledby="profileDropdown">
+              <a class="dropdown-item " href="cl">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item " href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+          </div>   
+          
+        </ul>
+      </nav>
+      
+      <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+        <div class="ml-auto">
+        
+            <div class=" .d-md-none .d-lg-block
+            " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src=" assets/images/boublilogo.png" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="cl">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item" href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+        </div>
+        <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+<body id="top">
+    <body>
+     
+            
+       
+        <!-- Hero Area End -->
+                <!-- Job List Area Start -->
+                <div class="job-listing-area pt-120 pb-120 ">
+                    <div class="container1 ml-5">
+                        <div class="row">
+                            <!-- Left content -->
+                            <div class="col-xl-3 col-lg-3 col-md-4">
+                                <div class="row">
+                                    
+                                       
+                                            
+                                        
+                                              <div class="profile">
+                                                <img src="assets/images/boublilogo.png" alt="" class="img-fluid rounded-circle">
+                                                <h1 class="text-dark">Boubli</h1>
+                                                <h2 class=" small text-dark mt-2 mb-2">boubli@gmail.com </h2>
+                                                <h5 class=" small text-muted "><i class="bi bi-geo-alt"></i><a href="index.html">Isamm Manouba</a></h5>
+                                                <div class="social-links mt-3 text-center"><div class="d-flex justify-content-center rounded-3 p-2 mb-2"
+                                                    >
+                                                    <div>
+                                                       
+                                                        <p class="mb-0">15</p>
+                                                        <p class="small text-muted mb-1">Réservations</p>
+                                                      </div><span class="mx-2">|</span>
+                                                      <div class="px-3">
+                                                        
+                                                        <p class="mb-0">9</p>
+                                                        <p class="small text-muted mb-1">Offre publieé</p>
+                                                      </div><span class="mx-2">|</span>
+                                                      <div>
+                                                        
+                                                        <p class="mb-0">3.5</p>
+                                                        <p class="small text-muted mb-1">Abonnés</p>
+                                                      </div> </div>
+                                                </div>
+                                              </div>
+                                              
+                        <div class="col-md-6 mt-3 ">           
+                        <a class="btn   btn-block text-white" style="background-color: #3F9FB7; "href="c" type="button">Modifier</a>
+                      </div>
+                      <div class="col-md-6 mt-3 "> 
+                        <a class="btn   btn-block text-white" style="background-color: #6c757d; "href="eventCl" type="button">mes événement</a>
+                        <br> 
+        
+                          </div> 
+                        
+                         <br>
+                          
+                          
+                          <h5 class="text-dark mt-2 mb-2 mt-4">NOS VALEURS & ENGAGEMENTS </h5>   
+                                          <p class="small text-muted mb-1">Nos engagements et nos valeurs nous définissent et constituent le moteur de notre développement et la clé de notre réussite. Depuis toujours, nos priorités sont la satisfaction de nos clients, l’apport d’innovation, l’éthique de notre prestation ainsi que le bien être de nos employés.<br><br>    </p> 
+                                        <br>
+                                          <i class="bi bi-gift" style="color:#3F9FB7;">
+                                     
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline"  style="color:#3F9FB7;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  inviter des membres
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">inviter des membres</h5>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <label for="recipient-name" class="col-form-label">Ajoutez des adresses  e-mail:</label>
+            <input type="email" class="form-control form-control-lg" id="form-label" placeholder="nom@exemple.com"aria-label="">
+         
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          <button type="button" class="btn btn-custom text-white" style="color:#3F9FB7;">Inviter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </i>
+  
+  
+  
+                                  <style>
+                                     
+                                      
+                                      a:visited {
+                                        color: #3F9FB7;
+                                        background-color: transparent;
+                                        text-decoration: none;
+                                      }
+                                      
+                                      
+                                      </style>
+                              
+        
+                                          </div>
+                               
+                                <!-- Job Category Listing End -->
+                          
+        
+                                </div>
+                            
+        
+        
+        
+        
+        
+        
+                            <!-- Right content -->
+                            <div class="col-xl-6 col-lg-6 col-md-8">
+                                <!-- Featured_job_start -->
+                                <section class="featured-job-area">
+                                    <div class="container ">
+                                        <!-- Count of Job list Start -->
+                                        <div class="row">
+                                            
+                                            <div class="col-lg-12">
+        
+        
+                
+                                <!-- Job Category Listing start -->
+                                <div class="job-category-listing mb-5 ">
+                                    <!-- single one -->
+                                    <div class="single-listing">
+                                       <div class="small-section-tittle2">
+                                            <!-- <h4>Job Category</h4>-->
+                                       </div>
+        
+        
+                                     
+                                       <form method="post" class="search-jobs-form">
+                                        <div class="row mb-5">
+                                        
+                                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                                            <select class="form-select form-control" data-style="btn-white btn-lg" data-width="100%" data-live-search="false" title="Services Proposées">
+                                              <option>Emploi</option>
+                                              <option>Stages</option>
+                                              <option>Events</option>
+                                              <option>Coworking</option>
+                                             
+                                            </select>
+                                          </div>
+                                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0 ">
+                                            <select class="form-select form-control" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Région ">
+                                              <option selected>Select Région</option>
+                                              <option value="MONASTIR">MONASTIR</option>
+                                              <option value="TUNIS">TUNIS</option>
+                                              <option value="SOUSSE">SOUSSE</option>
+                                              <option value="MAHDIA">MAHDIA</option>
+                                              <option value="SFAX">SFAX</option>
+                                              <option value="GABES">GABES</option>
+                                              <option value="MEDNINE">MEDNINE</option>
+                                              <option value="TATAOUINE">TATAOUINE</option>
+                                              <option value="KEBILI">KEBILI</option>
+                                              <option value="GAFSA">GAFSA</option>
+                                              <option value="TOZEUR">TOZEUR</option>
+                                              <option value="ARIANA">ARIANA</option>
+                                              <option value="BEN AROUS">BEN AROUS</option>
+                                              <option value="MANOUBA">MANOUBA</option>
+                                              <option value="BEJA">BEJA</option>
+                                              <option value="JANDOUBA">JANDOUBA</option>
+                                              <option value="EL KEF">EL KEF</option>
+                                              <option value="SIDI BOUZID">SIDI BOUZID</option>
+                                              <option value="KASSERINE">KASSERINE</option>
+                                              <option value="SELIANA">SELIANA</option>
+                                              <option value="BIZERTE">BIZERTE</option>
+                                              <option value="KAIROUAN">KAIROUAN</option>
+                                              <option value="NABEUL">NABEUL</option>
+                                              <option value="ZAGHOUAN">ZAGHOUAN</option>
+                                              <option value="Medjez elbeb">Medjez elbeb</option>
+                                              <option value="Tunis">Tunis</option>
+                                              <option value="Medjez elbeb">Medjez elbeb</option>
+                                              <option value="Medjez elbeb">Medjez elbeb</option>
+                                              
+                                            
+                                            </select>
+                                          </div>
+                                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0 ">
+                                           
+                                            <input type="text" class="form-control  form-control" placeholder="mot clé..." aria-label="">
+                                          </div>
+                                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 ">
+                                            <button type="submit" class="btn-a btn btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Chercher</button>
+                                            
+        
+        
+        
+        
+        
+        
+        
+        
+                                            
+                                          </div>
+                                        </div>
+                                        
+                                       
+                                      </form>
+                                   
+                                 
+                                    </div>
+                                </div>
+        
+               
+            
+        <style>
+        
+                /* styling search bar */
+                .search input[type=text]{
+                    width:600px;
+                    height:25px;
+                    border:20px;
+                    border-color: #3F9FB7;
+                }
+                     
+                .search{
+                    float:center;
+                    margin:5px;
+                }
+                     
+                .search button{
+                    background-color: #3F9FB7;
+                    color: #f2f2f2;
+                    float: right;
+                    padding: 5px 10px;
+                    margin-right: 16px;
+                    font-size: 12px;
+                    border: none;
+                    cursor: pointer;
+                }
+        
+        </style>
+        
+        <!-- Job Category Listing start -->
+        <div class="job-category-listing mb-5 ">
+          <!-- single one -->
+          <div class="single-listing">
+             
+              <!-- ======= Features Section ======= -->
+              <section id="features" class="features">
+            
+                <div class="container">
+                  
+                  <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          
+                    <div class="col-md-12">
+                      
+        
+                      <img src="/assets/images/cow55.png"  class="img-fluid" alt=""></div>
+                      <div class="col-md-2">
+                      <a href="#"><img src="assets/images/cow2.png" class="img-fluid rounded-circle " style="width:85px " alt=""></a><label class=" ml-3"style="font-size:px,text-secondary">
+                      </label>
+                      </div>
+                    <div class="col-md-10">
+                      
+        
+                      <p   style="font-size: large; color:#3F9FB7;">Espace coworking
+                      </p>
+                      <p   style="font-size: 15px; color:#ADA7A7;">Situé dans le nouveau pôle d'affaires de Tunis, notre centre Tunis Carthage bénéficie d'un emplacement idéal entre le centre-ville et l'aéroport de Tunis, à seulement 20 minutes des sites mythiques de Carthage et Sidi Bou Said. Le bâtiment offre également une vue époustouflante sur le lac de Tunis et permet d'accéder facilement à plusieurs restaurants gastronomiques.    </p>
+                       
+                   
+                    </div>
+                   
+                    <div class="col-md-12">
+                      <p  style="font-size: 15px; color:#ADA7A7;"> Lac 1 level 1&nbsp;• &nbsp;Tunis  &nbsp;•&nbsp;Tunis</p>
+        
+                        <a href="#!">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="avatar"
+                            class="img-fluid rounded-circle me-1" width="23">
+                        </a>
+                        <a href="#!">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp" alt="avatar"
+                            class="img-fluid rounded-circle me-1" width="23">
+                        </a>
+                        <a href="#!">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp" alt="avatar"
+                            class="img-fluid rounded-circle me-1" width="23">
+                          </a><label style="font-size: 15px; color:#ADA7A7;">3 Personnes de votre réseau suivent the bridge
+                           
+                          </label>
+                         
+                   </div>
+                  
+                    
+                  
+            
+                  </div><!-- Features Item -->
+          </div></section>
+             
+                 
+        
+              
+                      
+          <div class="modal-footer justify-content-start">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">S’abonner</button>
+            <a button type="button" class="btn btn-custom text-white" href="" style="color:#3F9FB7;">Details</a>
+          </div>
+                 
+                  </div></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+                                            </div>
+                                        </div>
+                                     
+                                       
+        
+        
+        
+        
+        
+        
+        
+                                        
+                                     
+                           
+        
+        
+        <!-- Job Category Listing start -->
+        <div class="job-category-listing mb-5 ">
+          <!-- single one -->
+          <div class="single-listing">
+             
+              <!-- ======= Features Section ======= -->
+              <section id="features" class="features">
+            
+                <div class="container">
+                  
+                  <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          
+                    <div class="col-md-12">
+                      <a href="#"><img src="assets/images/v1.png" class="img-fluid rounded-circle " style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Wevioo
+                      </label>
+                      <p  style="font-size: small;">Vous devez égaler la commodité de la voiture à essence pour que les gens achètent une voiture électrique." "Pour avoir de l'air pur dans les villes, vous devez passer à l'électrique." "Vous ne devriez pas montrer à quelqu'un quelque chose de très cool et puis pas fais-le. Chez Tesla, tout prototype qui est montré aux clients, la production doit être meilleure.
+                      </p>
+        
+                      <img src="/assets/images/vv.jpg"  class="img-fluid" alt="">
+        
+                    </div>
+                   
+                  </div><!-- Features Item -->
+          </div></section>
+             
+                 
+        
+              
+                    
+                  <div class="modal-footer justify-content-center">
+                    <a input type="bouton" style="font-size:15px;font-weight:500;color:#3F9FB7;"href="c" type="button">Voir Plus</a>
+                  </div>
+                  </div></div></div>
+        
+        
+        
+        
+        
+                                        <!-- Job Category Listing start -->
+                                        <div class="job-category-listing mb-5 ">
+                                          <!-- single one -->
+                                          <div class="single-listing">
+                                             <div class="small-section-tittle2 "style="text-align: center;">
+                                                  <h5>Coworking spaces</h5><br>
+                                             </div>
+                                              <!-- ======= Features Section ======= -->
+                                              <section id="features" class="features">
+                                            
+                                                <div class="container">
+                                                  
+                                                  <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+                                          
+                                                    <div class="col-md-6">
+                                                      <p  style="font-size: small;">Un espace de coworking baigné de lumière au cœur de la Tunisie, Centre Urbain Nord.</p>
+                                        
+                                                      <img src="/assets/images/2.jpg"  class="img-fluid" alt="">
+                                                      <p  style="font-size: small;">l'endroit idéal pour être vraiment productif et rencontrer des professionnels qui vous ressemblent .</p>
+                                        
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                      <p  style="font-size: small;">Carthage Center, Rue du Lac de Constance, Les Berges du Lac, 1053 Tunis.</p>
+                                                     
+                                                     
+                                                        <img src="/assets/images/cow4.png"  class="img-fluid" alt="">
+                                        
+                                                        <p  style="font-size: small;">Situé dans le nouveau pôle d'affaires de Tunis, notre centre Tunis Carthage bénéficie d'un emplacement idéal entre le centre-ville et l'aéroport de Tunis .</p>
+                                        
+                                                    </div>
+                                                  </div><!-- Features Item -->
+                                          </div></section>
+                                             
+                                                 
+                                        
+                                              
+                                                    
+                                                  <div class="modal-footer justify-content-center">
+                                                    <a input type="bouton" style="font-size:15px;font-weight:500;color:#3F9FB7;"href="c" type="button">Voir Plus</a>
+                                                  </div>
+                                                  </div></div>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+        
+        
+        
+        
+        
+                                        <!-- Job Category Listing start -->
+                                        <div class="job-category-listing mb-5 ">
+                                          <!-- single one -->
+                                          <div class="single-listing">
+                                             <div class="small-section-tittle2 "style="text-align: center;">
+                                                  <h5>Formation et certification</h5><br>
+                                             </div>
+                                              <!-- ======= Features Section ======= -->
+                                              <section id="features" class="features">
+                                            
+                                                <div class="container">
+                                                  
+                                                  <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+                                          
+                                                    <div class="col-md-6">
+                                                      <p  style="font-size: small;">Formation encadrement et suivi personnalisé web et mobile PFE.</p>
+                                        
+                                                      <img src="/assets/images/sq_img_6.jpg"  class="img-fluid" alt="">
+                                                      <p  style="font-size: small;">Le fameux fullstack JS / Spring Boot & Angular / Mobile Flutter est accessible pour vous.</p>
+                                        
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                      <p  style="font-size: small;">Formation à deux niveaux, intermèdiaire et avancè, chaque niveau dure un mois.</p>
+                                                     
+                                                     
+                                                        <img src="/assets/images/sq_img_11.jpg"  class="img-fluid" alt="">
+                                        
+                                                        <p  style="font-size: small;">Le fameux fullstack JS / Spring Boot & Angular / Mobile Flutter est accessible pour vous .</p>
+                                        
+                                                    </div>
+                                                  </div><!-- Features Item -->
+                                          </div></section>
+                                             
+                                                 
+                                        
+                                              
+                                                    
+                                                  <div class="modal-footer justify-content-center">
+                                                    <a input type="bouton" style="font-size:15px;font-weight:500;color:#3F9FB7;"href="c" type="button">Voir Plus</a>
+                                                  </div>
+                                                  </div></div>
+                                        
+        
+        
+                                        
+                                     
+                                    
+                                </section>
+                                <!-- Featured_job_end -->
+        
+        
+        
+        
+        
+        
+        
+                                
+                                
+                            </div>
+                            <!-- Left content -->
+                            <div class="col-xl-3 col-lg-3 col-md-4 ">
+                                
+                                <!-- Job Category Listing start -->
+                                    <!-- single one -->
+                                    <div class="single-listing">
+                                      
+                                        <!-- Select job items start -->
+                                        <div class="select-job-items2">
+                                            <img src="assets/images/orange.jpg">
+                                        </div>
+                                       
+                                        <!--  Select job items End-->
+                                        <!-- select-Categories start -->
+                                           
+                        
+                                        <!-- Hero Area End -->
+                <!-- Job List Area Start -->
+                <div class="job-listing-area pt-60 pb-60 ">
+                    <div class="container1 ">
+                        <div class="row">
+                            <!-- Left content -->
+                            <div class="col-xl-12 col-lg-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                           
+                                    </div>
+                                </div>
+                                <!-- Job Category Listing start -->
+                                <div class="job-category-listing mb-5 ">
+                                    <!-- single one -->
+                                    <div class="single-listing">
+                                       <div class="small-section-tittle2">
+                                            <!-- <h4>Job Category</h4>-->
+                                       </div>
+        
+        
+                                        <!-- select-Categories start -->
+                                        <div class="select-Categories pt-20 pb-50">
+                                           
+                                            <h5 style="font-style:Mulish;font-size:24px; color:#3F9FB7">Annonceurs à suivre</h5> 
+                                            <br>  <br> 
+                                            
+                                            <a href="#"><img src="assets/images/cow2.png" class="img-fluid center" style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary"> Espace coworking
+
+                                                Cowork <br>
+                                                <label class="text-secondary">Lac 1</label><br>
+        
+                                            </label>
+                                            <div class="d-flex justify-content-center">
+                                              <a button type="button" class="btn btn-custom text-white" href="c" style="color:#3F9FB7;">Suivre</a>
+                                         </div>
+                                           <br>
+                                            <a href="#"><img src="assets/images/cow1.png" class="img-fluid  " style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Espace coworking
+
+                                                 Box<br>
+                                                <label class="text-secondary">Lac 2</label><br>
+                                            </label>
+                                            <div class="d-flex justify-content-center">
+                                              <a button type="button" class="btn btn-custom text-white" href="c" style="color:#3F9FB7;">Suivre</a>
+                                         </div><br>
+        
+                                         <a href="#"><img src="assets/images/cow2.png" class="img-fluid  " style="width:60px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Espace coworking
+
+                                            Cowork <br>
+                                            <label class="text-secondary">Lac 1</label><br>
+                                        </label>
+                                        <div class="d-flex justify-content-center">
+                                          <a button type="button" class="btn btn-custom text-white" href="c" style="color:#3F9FB7;">Suivre</a>
+            
+        
+        
+        
+        
+                                    
+                                         <!--  Select job items End-->
+                                    
+        
+        
+        
+        
+        
+        
+        
+        
+                                       
+        
+        
+        
+                                         
+        
+                                        
+                                     
+        
+        
+         </div>  
+                                    </div>
+                                   
+         </div>
+        
+        
+                                   
+                                        <!-- select-Categories End -->
+                                    </div>
+                                 
+                                    </div>
+                                </div>
+                                <!-- Job Category Listing End -->
+                          
+        
+        
+        
+        
+                                
+        
+        
+        
+        
+        
+        
+        
+        
+                                     
+        
+        
+        
+                                       
+        
+                                      
+                                   
+        
+                        
+        
+                                </div>
+                            
+        
+        
+                                        <!-- select-Categories End -->
+                                   
+                                    <!-- single two -->
+                                
+                                        <!--  Select job items End-->
+                                        <!-- select-Categories start -->
+                                      
+                                        <!-- select-Categories End -->
+                                    <!-- single three -->
+                                 
+                                        <!-- select-Categories End -->
+                                    
+                                      <!-- Range Slider End -->
+                                    </div>
+                                </div>
+                                <!-- Job Category Listing End -->
+                            </div>
+                        </div>
+                            </div> 
+               
+                
+                <!-- Job List Area End -->
+                <!--Pagination Start  -->
+                <div class="pagination-area pb-115 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="single-wrap d-flex justify-content-center">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination justify-content-start">
+                                            <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">03</a></li>
+                                        <li class="page-item"><a class="page-link" href="#"><span class="ti-angle-right"></span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Pagination End  -->
+                
+           
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        

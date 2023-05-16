@@ -1,0 +1,53 @@
+.card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li .card:hover {
+    border: 1px solid blue;
+}
+
+ol {
+    padding: 0;
+}
+.fa-facebook-square {
+    color: white;
+  }
+  .icon {
+    color: white;
+  }
+  .bi-grid-3x3-gap-fill {
+    color: white;
+  }
+  .white-icon {
+    color: white;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 1rem;
+    padding: 0 10px;
+   
+    cursor: pointer;
+    position: relative;
+  }
+  nav ul li:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  nav ul li:hover::after{
+    width:80%;
+  }

@@ -1,0 +1,469 @@
+<section class="section-hero  inner-page fixed;" style="background:#2474A6;" id="home-section">
+</section>
+<div class="site-wrap">
+
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>  <!-- .site-mobile-menu -->
+
+
+<!-- NAVBAR --> 
+
+
+<header class="site-navbar mt-4">
+    
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="site-logo col-6 "><a href="index.html" ><img src="assets/images/sarra.png" style="width: 100;"alt="" title=""></a></div>
+
+      <nav class="mx-auto site-navigation d-flex aligin-items-center col-5">
+        <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+          <li><a href="/actualite">Actualité</a></li>
+          <li><a href="offre">offre</a></li>
+          <li><a href="event">Event</a></li>
+          <li><a href="cow">Coworking</a></li>
+          <li class="nav-item dropdown">
+            <a class=" nav-icon"  (click)="showNotifications = !showNotifications">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" [ngClass]="{'show': showNotifications}">
+              <li class="dropdown-header ">
+                Vous avez 4 nouvelles notifications
+                <a href="notification"><span class="badge rounded-pill bg-primary p-2 ms-2">Voir tout</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4">
+                <div>
+                  <h5 style="color: #2474A6 ;font-size: 19px;">Wevioo</h5>
+                  <p>Un test envoyé par Wevioo vous attent</p>
+                  <p class="small-text">30 min. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr role="tabpanel"class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4 ">
+                <div>
+                  <h5 style="color: #2474A6  ;font-size: 19px;">CareerBridge</h5>
+                  <p>Vous atteint 75 Xp vous pouvez profiter une réduction sur la pack premium</p>
+                  <p class="small-text">1 hr. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="dropdown-footer p-4">
+                <a href="notification">Afficher toutes les notifications</a>
+              </li>
+            </ul>
+          </li>            <li class="nav-item dropdown" style="color: aliceblue;">
+            <div class="nav-link" id="dropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-grid-3x3-gap-fill large-icon"></i>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropDown">
+              <a class="dropdown-item" href="#">Pack premium</a>
+              <a class="dropdown-item "style="color: #2474A6;" href="#" >1Xp</a>
+             
+            </div>
+          </li>
+          <div class=" d-lg-none nav-item dropdown">
+            <div class="nav-link " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src=" assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu " aria-labelledby="profileDropdown">
+              <a class="dropdown-item " href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+              <a href class="dropdown-item " (click)="logout()" >Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+          </div>   
+          
+        </ul>
+      </nav>
+      
+      <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+        <div class="ml-auto">
+        
+            <div class=" .d-md-none .d-lg-block
+            " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="{{candidate.logo}}" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a href class="dropdown-item " (click)="logout()" >Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+        </div>
+        <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+
+<!--== Start Page Header Area Wrapper ==-->
+<div class="page-header-area sec-overlay sec-overlay-black">
+  <div class="container pt--0 pb--0">
+    <div class="row">
+      <div class="col-12">
+        <div class="page-header-content">
+          <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file-upload">
+              <img class="upload" src="assets/images/photo.png">
+            </label>
+            <input id="file-upload" type="file">
+
+          </form>
+          <h4 class="text-white font-weight-bold">Ajouter une image de bannière
+            Dimensions optimales 3200 x 410px</h4>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="body">
+  <div class="profile text-center">
+    <div class="row mb-3">
+      <img src="{{candidate.logo}}"  class="profile-pic ">
+    </div>
+    <p class="name">{{candidate.username}}</p>
+
+    <p class="email">
+      <a href="mailto:{{candidate.email}}">{{candidate.email}}</a>
+
+    </p>
+    <p class="email">
+    </p>
+    <div class="localisation">
+      <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9 11.2308C10.7673 11.2308 12.2 9.92206 12.2 8.30769C12.2 6.69332 10.7673 5.38462 9 5.38462C7.23269 5.38462 5.8 6.69332 5.8 8.30769C5.8 9.92206 7.23269 11.2308 9 11.2308Z"
+          stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path
+          d="M17 8.30769C17 14.8846 9 20 9 20C9 20 1 14.8846 1 8.30769C1 6.36957 1.84285 4.51083 3.34315 3.14037C4.84344 1.76992 6.87827 1 9 1C11.1217 1 13.1566 1.76992 14.6569 3.14037C16.1571 4.51083 17 6.36957 17 8.30769Z"
+          stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <p>{{candidate.adress}}</p>
+    </div>
+    <div class="bg-c-green counter-block m-t-10 p-20">
+      <div class="row">
+          <div class="col-4">
+              <p>1256 events</p>
+          </div>
+          <div class="col-4">
+              <p>{{project_count ? project_count + ' projects' : '0 projects'}}</p>
+          </div>
+          <div class="col-4">
+              <p>189 k</p>
+          </div>
+      </div>
+  </div>
+  
+
+    <div class="row">
+      <div class="col-11 mr-4 ml-4">
+        <button  class="buttons1" routerLink="/candidaturesC">Mes candidatures</button>
+      </div>
+    </div>
+    
+    <form class="form-horizontal" name="form" (ngSubmit)="f.form.valid && completePofile()" #f="ngForm" novalidate>
+      <p class="text-left titles mt-4">Information de Base</p>
+      <div class="row">
+        <div class="col-5 mr-4 ml-4">
+          <label>Nom</label>
+          <input type="text" class="form-control" name="first_name" [(ngModel)]="candidate.first_name" #first_name="ngModel">
+        </div>
+
+        <div class="col-5">
+          <label>Prénom</label>
+          <input type="text" class="form-control" name="last_name" [(ngModel)]="candidate.last_name" #last_name="ngModel">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Profession</label>
+          <input type="text" class="form-control" placeholder="Ex Directeur Diseigner..." name="profession" [(ngModel)]="candidate.profession" #profession="ngModel">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 mr-4 ml-4">
+          <label class="zone ml-1">Gouvernorat</label>
+          <select class="form-control" name="gouvernorat" [(ngModel)]="candidate.gouvernorat" #gouvernorat="ngModel">
+            <option value=""></option>
+            <option value="ARIANA">ARIANA</option>
+            <option value="BEJA">BEJA</option>
+            <option value="BENAROUS">BENAROUS</option>
+            <option value="BIZERTE">BIZERTE</option>
+            <option value="GABES">GABES</option>
+            <option value="GAFSA">GAFSA</option>
+            <option value="JENDOUBA">JENDOUBA</option>
+            <option value="KAIROUAN">KAIROUAN</option>
+            <option value="KASSERINE">KASSERINE</option>
+            <option value="KEBILI">KEBILI</option>
+            <option value="KEF">KEF</option>
+            <option value="MAHDIA">MAHDIA</option>
+            <option value="MANOUBA">MANOUBA</option>
+            <option value="MEDNINE">MEDNINE</option>
+            <option value="MONASTIR">MONASTIR</option>
+            <option value="NABEUL">NABEUL</option>
+            <option value="SFAX">SFAX</option>
+            <option value="SIDI BOUZID">SIDI BOUZID</option>
+            <option value="SILIANA">SILIANA</option>
+            <option value="SOUSSE">SOUSSE</option>
+            <option value="TATOUINE">TATOUINE</option>
+            <option value="TOZEUR">TOZEUR</option>
+            <option value="TUNIS">TUNIS</option>
+            <option value="ZAGHOUAN">ZAGHOUAN</option>
+          </select>
+        </div>
+        <div class="col-5">
+          <label>Ville</label>
+          <input type="text" class="form-control" name="city" [(ngModel)]="candidate.city" #city="ngModel">
+        </div>
+      </div>
+
+      <p class="text-left titles mt-4">A propos de moi</p>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Titre de section</label>
+          <input type="text" class="form-control" name="about_me" [(ngModel)]="candidate.about_me" #about_me="ngModel">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Description</label>
+          <textarea class="form-control" name="details" [(ngModel)]="candidate.details" #details="ngModel"></textarea>
+        </div>
+      </div>
+
+      <p class="text-left titles mt-4">Expérience professionnel</p>
+      <div *ngFor="let experience of candidate.experiences">
+        <form class="form-horizontal" name="form_experiences" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+          <div class="row">
+            <div class="col-5 ml-4">
+              <label>Entreprise</label>
+              <input type="text" class="form-control" name="company" [(ngModel)]="experience.company" #company="ngModel">
+            </div>
+            <div class="col-5">
+              <label class="zone">City</label>
+              <input type="text" class="form-control" name="city" [(ngModel)]="experience.city" #city="ngModel">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Fonction</label>
+              <input type="text" class="form-control" name="position" [(ngModel)]="experience.position" #position="ngModel">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5 ml-4">
+              <label>Date Début</label>
+              <input type="date" class="form-control" name="start_date" [(ngModel)]="experience.start_date" #start_date="ngModel">
+            </div>
+            <div class="col-5">
+              <label>Date Fin</label>
+              <input type="date" class="form-control" name="final_date" [(ngModel)]="experience.final_date" #final_date="ngModel">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Détail</label>
+              <textarea class="form-control" name="details" [(ngModel)]="experience.details" #details="ngModel"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">           
+              <button class="onHoldButton" type="submit" (click)="onClickSelected(experience)" [ngClass]="{'greenButton': experience.selected}">save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <p class="add-data text-left"><a (click)="addexp()">+ Ajouter une expérience professionnel</a></p>
+
+      <p class="text-left titles mt-4">Formation</p>
+      <div *ngFor="let training of candidate.trainings">
+        <form class="form-horizontal" name="form_trainings" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Centre </label>
+              <input type="text" class="form-control" name="center" [(ngModel)]="training.center" #center="ngModel">
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Diplôme</label>
+              <input type="text" class="form-control" name="diploma" [(ngModel)]="training.diploma" #diploma="ngModel">
+            </div>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-5 ml-4">
+              <label>Date Début</label>
+              <input type="date" class="form-control" name="start_date" [(ngModel)]="training.start_date" #start_date="ngModel">
+            </div>
+            <div class="col-5">
+              <label>Date Fin</label>
+              <input type="date" class="form-control" name="end_date" [(ngModel)]="training.end_date" #end_date="ngModel">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">           
+              <button class="onHoldButton" type="submit" (click)="onClickSelected(training)" [ngClass]="{'greenButton': training.selected}">save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <p class="add-data text-left"><a (click)="addformation()"> + Ajouter une formation</a></p>
+
+      <p class="text-left titles mt-4">Langue</p>
+      <div class="row" *ngFor="let language of candidate.languages">
+        <form class="form-horizontal" name="form_languages" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+          <div class="row">
+            <div class="col-5 ml-4">
+              <label>Langue</label>
+              <input type="text" class="form-control" name="language_name" [(ngModel)]="language.language_name" #language_name="ngModel">
+            </div>
+            <div class="col-5">
+              <label class="zone">Niveu</label>
+              <select class="form-control" class="form-control" name="level" [(ngModel)]="language.level" #level="ngModel">
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <option value="B1">B1</option>
+                <option value="B2">B2</option>
+                <option value="C1">C1</option>
+                <option value="C2">C2</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">           
+              <button class="onHoldButton" type="submit" (click)="onClickSelected(language)" [ngClass]="{'greenButton': language.selected}">save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <p class="add-data text-left"><a (click)="addlangue()">+ Ajouter une langue</a></p>
+
+      <p class="text-left titles mt-4">Parcours Universitaire</p>
+
+      <div *ngFor="let background of candidate.backgrounds">
+        <form class="form-horizontal" name="form_languages" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Faculté</label>
+              <input type="text" class="form-control" name="university" [(ngModel)]="background.university" #university="ngModel">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <label class="label1">Diplôme</label>
+              <input type="text" class="form-control" name="diploma" [(ngModel)]="background.diploma" #diploma="ngModel">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5 ml-4">
+              <label>Date Début</label>
+              <input type="date" class="form-control" name="start_date" [(ngModel)]="background.start_date" #start_date="ngModel">
+            </div>
+            <div class="col-5">
+              <label>Date Fin</label>
+              <input type="date" class="form-control" name="end_date" [(ngModel)]="background.end_date" #end_date="ngModel">
+            </div>
+          </div>
+          <hr class="my-2">
+          <div class="row">
+            <div class="col-5">           
+              <button class="onHoldButton" type="submit" (click)="onClickSelected(background)" [ngClass]="{'greenButton': background.selected}">save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <p class="add-data text-left"><a (click)="adduniversity()">+ Ajouter votre parcours Universitaire</a></p>
+
+      <p class="text-left titles mt-4">Compétence</p>
+
+      <div *ngFor="let skill of candidate.skills">
+        <form class="form-horizontal" name="form_skills" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+          <div class="row">
+            <div class="col-11 ml-4">
+              <input type="text" class="form-control" name="skill" [(ngModel)]="skill.skill" #skill="ngModel">
+            </div>
+          </div>
+          <hr class="my-2">
+          <div class="row">
+            <div class="col-5">           
+              <button class="onHoldButton" type="submit" (click)="onClickSelected(skill)" [ngClass]="{'greenButton': skill.selected}">save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <p class="add-data text-left"><a (click)="addSkill()">+ Ajouter votre compétences</a></p>
+
+      <div class="row">
+        <div class="col-11 ml-4">
+          <button class="buttons">Modifier</button>
+        </div>
+      </div>
+    </form>
+    <div class="projects">
+      <div class="section-title">Projects</div>
+      <form class="form-horizontal" name="form_projects" (ngSubmit)="f.form.valid && publishProject()" #f="ngForm" novalidate>
+        <div class="project pt-5">
+          <div class="row1 mt-5 pub-event">
+            <div class="section-title-third">
+              <label>Nom</label>
+              <input type="text" class="form-control" name="title" [(ngModel)]="formProject.title" #title="ngModel">
+            </div>
+            <div class="section-title-third">
+              <label>description</label>
+              <input type="text" class="form-control" name="content" [(ngModel)]="formProject.content" #content="ngModel">
+            </div>
+            <div class="card">
+              <img src="assets/images/wrapper.png" class="upload-event">
+              <input type="file" class="upload-1 mt-5" id="formFile" name="image" #imageInput (change)="onImageProjectChanged($event)">
+            </div>
+          </div>
+        </div>
+        <button class="buttons mt-5" type="submit">Publier</button>
+        <div class="row1 mt-5 pub-event">
+          <div *ngFor="let project of candidate.projects" class="card-group">
+            <div class="row">
+              <div class="col-5">
+                <div class="desc">{{ project.title }}</div>
+                <!--<img src="{{ project.pathImage }}" class="event-pic">-->
+                <div class="desc1">{{ project.content }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>

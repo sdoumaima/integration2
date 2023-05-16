@@ -1,0 +1,528 @@
+<section class="section-hero  inner-page fixed;" style="background:#2474A6;" id="home-section">
+</section>
+<div class="site-wrap">
+
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>  <!-- .site-mobile-menu -->
+
+
+<!-- NAVBAR --> 
+
+
+<header class="site-navbar mt-4">
+    
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="site-logo col-6 "><a href="index.html" ><img src="assets/images/sarra.png" style="width: 100;"alt="" title=""></a></div>
+
+      <nav class="mx-auto site-navigation d-flex aligin-items-center col-5">
+        <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+          <li><a href="/actualite">Actualité</a></li>
+          <li><a href="offre">offre</a></li>
+          <li><a href="event">Event</a></li>
+          <li><a href="cow">Coworking</a></li>
+          <li class="nav-item dropdown">
+            <a class=" nav-icon"  (click)="showNotifications = !showNotifications">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" [ngClass]="{'show': showNotifications}">
+              <li class="dropdown-header ">
+                Vous avez 4 nouvelles notifications
+                <a href="notification"><span class="badge rounded-pill bg-primary p-2 ms-2">Voir tout</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4">
+                <div>
+                  <h5 style="color: #2474A6 ;font-size: 19px;">Wevioo</h5>
+                  <p>Un test envoyé par Wevioo vous attent</p>
+                  <p class="small-text">30 min. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr role="tabpanel"class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4 ">
+                <div>
+                  <h5 style="color: #2474A6  ;font-size: 19px;">CareerBridge</h5>
+                  <p>Vous atteint 75 Xp vous pouvez profiter une réduction sur la pack premium</p>
+                  <p class="small-text">1 hr. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="dropdown-footer p-4">
+                <a href="notification">Afficher toutes les notifications</a>
+              </li>
+            </ul>
+          </li>          <li class="nav-item dropdown" style="color: aliceblue;">
+            <div class="nav-link" id="dropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-grid-3x3-gap-fill large-icon"></i>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropDown">
+              <a class="dropdown-item" href="#">Pack premium</a>
+              <a class="dropdown-item "style="color: #2474A6;" href="#" >1Xp</a>
+             
+            </div>
+          </li>
+          <div class=" d-lg-none nav-item dropdown">
+            <div class="nav-link " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="{{candidate.logo}}" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu " aria-labelledby="profileDropdown">
+              <a class="dropdown-item " href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a href class="dropdown-item " (click)="logout()" >Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+          </div>   
+          
+        </ul>
+      </nav>
+      
+      <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+        <div class="ml-auto">
+        
+            <div class=" .d-md-none .d-lg-block
+            " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="{{candidate.logo}}" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a href class="dropdown-item " (click)="logout()" >Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+        </div>
+        <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+<body id="top">
+
+
+
+
+
+
+
+
+<section>
+        <!-- Hero Area Start-->
+        <div class="slider-area ">
+            <div class="single-slider section-overly slider-height2 d-flex align-items-center" style="background-image: url('assets/images/7.jpg');" id="home-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-15">
+                         
+                                <div class="mb-5 text-center">
+                                    <h1 class="text-white font-weight-bold">Offre d'emploi ou stage</h1>
+                                    <p class="text-light ">Élargissez votre champ d'action en rencontrant des professionnels de votre domaine et en explorant de nouvelles possibilités.</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Hero Area End -->
+        <!-- Job List Area Start -->
+        <div class="job-listing-area pt-120 pb-120 ">
+            <div class="container1 ml-5">
+                <div class="row">
+                    <!-- Left content -->
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                    <div class="small-section-tittle2 mb-45">
+                                    <div class="ion">
+                                    </div>
+                                    <h4>Filters </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Job Category Listing start -->
+                        <div class="job-category-listing mb-5 ">
+                            <!-- single one -->
+                            <div class="single-listing">
+                               <div class="small-section-tittle2">
+                                    <!-- <h4>Job Category</h4>-->
+                               </div>
+
+
+                                <!-- select-Categories start -->
+                                <div class="select-Categories pt-20 pb-50">
+                                    
+                                    <label class="container">Stage
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Emploi
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+
+
+
+
+
+
+
+
+
+<!-- Select job items start -->
+<div class="select-Categorie pt-60 pb-5">
+   
+    <h5>Localisation</h5>  
+                               
+                                
+                               <select id="inputState" class="form-select form-control">
+                                <option selected>Ville...</option>
+                  <option value="MONASTIR">MONASTIR</option>
+                  <option value="TUNIS">TUNIS</option>
+                  <option value="SOUSSE">SOUSSE</option>
+                  <option value="MAHDIA">MAHDIA</option>
+                  <option value="SFAX">SFAX</option>
+                  <option value="GABES">GABES</option>
+                  <option value="MEDNINE">MEDNINE</option>
+                  <option value="TATAOUINE">TATAOUINE</option>
+                  <option value="KEBILI">KEBILI</option>
+                  <option value="GAFSA">GAFSA</option>
+                  <option value="TOZEUR">TOZEUR</option>
+                  <option value="ARIANA">ARIANA</option>
+                  <option value="BEN AROUS">BEN AROUS</option>
+                  <option value="MANOUBA">MANOUBA</option>
+                  <option value="BEJA">BEJA</option>
+                  <option value="JANDOUBA">JANDOUBA</option>
+                  <option value="EL KEF">EL KEF</option>
+                  <option value="SIDI BOUZID">SIDI BOUZID</option>
+                  <option value="KASSERINE">KASSERINE</option>
+                  <option value="SELIANA">SELIANA</option>
+                  <option value="BIZERTE">BIZERTE</option>
+                  <option value="KAIROUAN">KAIROUAN</option>
+                  <option value="NABEUL">NABEUL</option>
+                  <option value="ZAGHOUAN">ZAGHOUAN</option>
+                  <option value="Medjez elbeb">Medjez elbeb</option>
+                  <option value="Tunis">Tunis</option>
+                  <option value="Medjez elbeb">Medjez elbeb</option>
+                  <option value="Medjez elbeb">Medjez elbeb</option>
+                               
+                               </select>
+                                 <!--  Select job items End-->
+                            
+
+
+
+
+ <!-- Select job items start -->
+ <div class="select-Categorie pt-60 pb-5">
+   
+    <h5>Type de stage</h5>  
+    <label class="container"> Stage D'été
+        <input type="checkbox" >
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Stage PFE
+        <input type="checkbox" checked="checked active">
+        <span class="checkmark"></span>
+    </label>               
+                                
+                             
+                                 <!--  Select job items End-->
+                            
+
+
+
+                               
+
+
+
+                                 
+ <!-- Select job items start -->
+ <div class="select-Categorie pt-60 pb-5">
+   
+        <h5>Type de contrat</h5>
+  
+        <label class="container"> CDI
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">CDD
+            <input type="checkbox" checked="checked active">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">CTT
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Stage
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Alternance
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+                             
+                                  <!--  Select job items End-->
+                                
+                             
+
+ <!-- select-Categories start -->
+ <div class="select-Categorie pt-60 ">
+    <div class="small-section-tittle">
+        <h5>Industiés</h5>
+    </div>
+
+              <input type="text" class="form-control  form-control" placeholder="Ex:Design" aria-label=""></div>
+             <br>
+              <div class="d-flex justify-content-center">
+                <a button type="button" class="btn btn-custom text-white" href="c" style="color:#2474A6;">recherche</a>
+           </div>
+ </div>  
+                            </div>
+                           
+ </div>
+                           
+                                <!-- select-Categories End -->
+                            </div>
+                         
+                            </div>
+                        </div>
+                        <!-- Job Category Listing End -->
+                  
+
+                        </div>
+                    
+
+
+
+
+
+
+                    <!-- Right content -->
+                    <div class="col-xl-6 col-lg-6 col-md-8">
+                        <!-- Featured_job_start -->
+                        <section class="featured-job-area">
+                            <div class="container ">
+                                <!-- Count of Job list Start -->
+                                <div class="row">
+                                    
+                                    <div class="col-lg-12">
+                                       <!-- search bar right align -->
+        
+                        <!-- Job Category Listing start -->
+                        <div class="job-category-listing mb-5 ">
+                            <!-- single one -->
+                            <div class="single-listing">
+                              
+
+        <div class="search">
+            
+            <form>
+                <input type="text" placeholder="Rechercher...">
+                <button class="btn btn-custom" style="color:#2474A6,text-whiet" type="submit">Rechercher</button>
+              </form>
+              </div></div>
+        </div>
+    
+<style>
+
+        /* styling search bar */
+        .search input[type=text]{
+            width:600px;
+            height:25px;
+            border:20px;
+            border-color: #0470b7;
+        }
+             
+        .search{
+            float:center;
+            margin:5px;
+        }
+             
+        .search button{
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+</style>
+
+
+
+
+                                    </div>
+                                </div>
+                                <!-- Count of Job list End -->
+                                <!-- single-job-content -->
+                                <div *ngFor="let offer of offers">
+                                    <div class="single-job-items mb-30">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="#"><img src="{{offer.logo}}" alt=""></a>
+                                            </div>
+                                            <div class="job-tittle job-tittle2">
+                                                <ul>
+                                                <a href="#">
+                                                    <li><h5>{{offer.company_name}}</h5></li>
+                                                </a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-circle-fill"  class="text-secondary" viewBox="0 0 16 16">
+                                                    <circle cx="3" cy="10" r="2"/>
+                                                  </svg>
+                                                <li><h6>Localisation : </h6>{{offer.localisation}}</li>
+                                            </ul>
+                                                <ul>
+                                                    <li><h6>{{offer.title}}</h6></li><br>
+                                                    <li><h6>Type : </h6>{{offer.nature_de_travail}}</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="items-link items-link2 f-right">
+                                            <button type="button" class="btn btn-custom text-white" (click)="offreDetail(offer.id)">Détails</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Featured_job_end -->
+                        
+                    </div>
+                    <!-- Left content -->
+                    <div class="col-xl-3 col-lg-3 col-md-4 ">
+                        
+                        <!-- Job Category Listing start -->
+                            <!-- single one -->
+                            <div class="single-listing">
+                              
+                                <!-- Select job items start -->
+                                <div class="select-job-items2">
+                                    <img src="assets/images/ooredoo.jpg">
+                                </div>
+                               
+                                <!--  Select job items End-->
+                                <!-- select-Categories start -->
+                                    <div class="small-section-tittle2">
+                                        <h4>recent view</h4>
+                                    </div>
+                                    <label class="container text-secondary " style="font-size:15px">World Jobs
+                                       
+                                    </label>
+                                    <label class="container "style="font-size:15px">UI/UX Designer
+                                    
+                                    </label><br>
+                                    <label class="container text-secondary "style="font-size:15px">AgencyAnalytics
+                                        
+                                    </label>
+                                    <label class="container "style="font-size:15px">Frontend Developer (Website)
+                                    
+                                    </label>
+
+
+                                    <br>
+                                    <label class="container text-secondary "style="font-size:15px">Clevertech
+                                        
+                                    </label>
+                                    <label class="container "style="font-size:15px">Senior Staff React Developer
+                                    
+                                    </label>
+                                    <h4>Top Companies</h4>
+                                   
+                                
+                                    <a href="#"><img src="assets/images/R.png" class="img-fluid rounded-circle " style="width:30px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Wevioo
+                                    
+                                    </label><br>
+                                    <a href="#"><img src="assets/images/s.png" class="img-fluid rounded-circle " style="width:30px " alt=""></a><label class=" ml-3"style="font-size:18px,text-secondary">Rostelecom
+                                    
+                                    </label>
+                                </div>
+                                <!-- select-Categories End -->
+                           
+                            <!-- single two -->
+                        
+                                <!--  Select job items End-->
+                                <!-- select-Categories start -->
+                              
+                                <!-- select-Categories End -->
+                            <!-- single three -->
+                         
+                                <!-- select-Categories End -->
+                            
+                              <!-- Range Slider End -->
+                            </div>
+                        </div>
+                        <!-- Job Category Listing End -->
+                    </div>
+                </div>
+          
+       
+        
+        <!-- Job List Area End -->
+        <!--Pagination Start  -->
+        <div class="pagination-area pb-115 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-wrap d-flex justify-content-center">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-start">
+                                    <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">03</a></li>
+                                <li class="page-item"><a class="page-link" href="#"><span class="ti-angle-right"></span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--Pagination End  -->
+        
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
